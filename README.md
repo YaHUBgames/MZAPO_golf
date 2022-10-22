@@ -23,29 +23,29 @@ For better explanation on how to connect to mzapo board use [official tutorial s
 ## Code structure
 This project is separated into individual source and header files:
 ### The global part
-- [golf_main.c](##golf_main.c)
-- [golf_lib.c](##golf_lib.c)    /   [golf_lib.h](##golf_lib.h)
-- [golf_global.c](##golf_global.c)  /   [golf_global.h](##golf_global.h)
-- [golf_assets.c](##golf_assets.c)  /   [golf_assets.h](##golf_assets.h)
-- [golf_imagebmp.c](##golf_imagebmp.c)  /   [golf_imagebmp.h](##golf_imagebmp.h)
+- [golf_main.c](#golf_mainc)
+- [golf_lib.c](#golf_libc)    /   [golf_lib.h](#golf_libh)
+- [golf_global.c](#golf_globalc)  /   [golf_global.h](#golf_globalh)
+- [golf_assets.c](#golf_assetsc)  /   [golf_assets.h](#golf_assetsh)
+- [golf_imagebmp.c](#golf_imagebmpc)  /   [golf_imagebmp.h](#golf_imagebmph)
 
 ### Peripheral access
-- [golf_input.c](##golf_input.c)    /   [golf_input.h](##golf_input.h)
-- [golf_led.c](##golf_led.c)    /   [golf_led.h](##golf_led.h)
-- [golf_lcd.c](##golf_lcd.c)    /   [golf_lcd.h](##golf_lcd.h)
+- [golf_input.c](#golf_inputc)    /   [golf_input.h](#golf_inputh)
+- [golf_led.c](#golf_ledc)    /   [golf_led.h](#golf_ledh)
+- [golf_lcd.c](#golf_lcdc)    /   [golf_lcd.h](#golf_lcdh)
 
 ### Working with data from/for peripherals
-- [golf_lcd_load.c](##golf_lcd_load.c)  /   [golf_lcd_load.h](##golf_lcd_load.h)
-- [golf_lcd_print.c](##golf_lcd_print.c)    /   [golf_lcd_print.h](##golf_lcd_print.h)
-- [golf_gameplay.c](##golf_gameplay.c)  /   [golf_gameplay.h](##golf_gameplay.h)
+- [golf_lcd_load.c](#golf_lcd_loadc)  /   [golf_lcd_load.h](#golf_lcd_loadh)
+- [golf_lcd_print.c](#golf_lcd_printc)    /   [golf_lcd_print.h](#golf_lcd_printh)
+- [golf_gameplay.c](#golf_gameplayc)  /   [golf_gameplay.h](#golf_gameplayh)
 
 ### Game scenes
-- [golf_scene.h](##golf_scene.h)
-- [golf_scene_loading.c](##golf_scene_loading.c)
-- [golf_scene_title.c](##golf_scene_title.c)
-- [golf_scene_game.c](##golf_scene_game.c)
-- [golf_scene_pause.c](##golf_scene_pause.c)
-- [golf_scene_end.c](##golf_scene_end.c)
+- [golf_scene.h](#golf_sceneh)
+- [golf_scene_loading.c](#golf_scene_loadingc)
+- [golf_scene_title.c](#golf_scene_titlec)
+- [golf_scene_game.c](#golf_scene_gamec)
+- [golf_scene_pause.c](#golf_scene_pausec)
+- [golf_scene_end.c](#golf_scene_endc)
 
 # Source files
 
