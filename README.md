@@ -7,8 +7,6 @@ This project is final work for course B0B35APO. It contains all required source 
 
 Mzapo golf is based on [mzapo_template](https://gitlab.fel.cvut.cz/b35apo/mzapo_template.git) project and cannot work without mzapo board. All technical information about mzapo board can be found on [official site](https://cw.fel.cvut.cz/wiki/courses/b35apo/en/documentation/mz_apo/start).
 
-<ins>Note</ins>: this file won't work correctly if it is outside project directory.
-
 ## Compile and run
 Makefile works the same way as the one from the template. Before running the application on board you will need to change or comment these two lines. 
 ```bash
